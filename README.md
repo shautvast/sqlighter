@@ -25,10 +25,9 @@ But:
 * Bear in mind that, while you, as a developer, cannot directly read the payload, like JSON allows, SQLite is available on pretty much any platform,
 and then you can leverage the power of SQL to inspect the data. 
 
-* other use case: you need to create an sqlite database from a file (like a CSV) in a java app. Sqlighter is much faster than jdbc+sqlite. There are no transactions, and no checks, so use at your own peril.
-* Thing to note: Sqlite is really relaxed when it comes to schema validation. 
+* Thing to note: Sqlite itself is really, really relaxed when it comes to schema validation, and this is reflected in Sqlighter.
 That means that 2 records in the same table can contain values of totally different types(!). The number of values can also vary. All perfectly legal from the standpoint of Sqlighter. 
-And maybe not when writing to Sqlite itself, but perfectly readable!
+And maybe not when writing to Sqlite itself, but perfectly readable from the file!
 
 **About the name**    
 * It lights up an SQLite database :)
