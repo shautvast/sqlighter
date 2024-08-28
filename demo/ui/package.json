@@ -1,0 +1,20 @@
+{
+  "name": "lit-virtual-scroll-basic",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start": "npm run dev",
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview"
+  },
+  "dependencies": {
+    "lit": "^2.6.1",
+    "sqlite-wasm-esm": "^0.0.30"
+  },
+  "devDependencies": {
+    "vite": "^4.1.4"
+  },
+  "keywords": ["sqlite", "lit"]
+}

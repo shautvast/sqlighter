@@ -1,0 +1,8 @@
+*.iml
+*.db
+*.sqlite
+.idea/
+target/
+node_modules/
+dist/
+.cache/

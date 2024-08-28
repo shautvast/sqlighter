@@ -1,0 +1,38 @@
+body {
+    font-family: sans-serif;
+}
+
+virtual-scroller {
+    display: flex;
+    height: 80vh;
+    width: 100%;
+    overflow: scroll;
+}
+
+.header {
+    height: 1em;
+    display: inline-block;
+    width: 15.9%;
+    font-weight: bold;
+}
+
+img {
+    cursor: pointer;
+}
+
+.filter {
+    cursor: pointer;
+    float: right;
+    color: gray;
+    font-size: larger;
+    transform: translate(0, -3px);
+}
+
+img {
+    width: 1em;
+    height: 0.7em;
+}
+
+.header-row {
+    border: solid #eee 1px;
+}
